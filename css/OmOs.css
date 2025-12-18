@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@700;900&family=Inter:wght@400;500&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #f4f2e9;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+iframe {
+  width: 100%;
+  height: 280px;
+  border: 0;
+}
+
+section {
+  display: grid;
+  gap: 32px;
+  padding: 2em;
+}
+.section4-tekst p {
+  text-align: justify;
+  width: 450px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  margin-bottom: 2em;
+  margin-left: 3.5em;
+}
+.section4 {
+  margin-top: 3em;
+  border-bottom: #7b1212 1.5px solid;
+}
+
+.grid_2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  align-items: center;
+}
+
+.grid_3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  align-items: start;
+}
+
+.grid_4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  align-items: start;
+  border-bottom: #7b1212 1.5px solid;
+}
+
+/* =====================
+   TYPOGRAFI
+   ===================== */
+
+.section1 p {
+  text-align: center;
+  width: 550px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  margin: 0 auto;
+}
+.section2 {
+  border-bottom: #9b0c0c 1.5px solid;
+}
+.bestyrelse {
+  margin-right: -4em;
+  text-align: justify;
+  width: 550px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+}
+.bestyrelse-tekst {
+  text-align: center;
+  width: 70%;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  margin: 0 auto;
+}
+.tekstfigma p {
+  text-align: justify;
+  width: 450px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  margin-bottom: 2em;
+  margin-left: 3.5em;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 24px;
+  font-family: "mainard", sans-serif;
+}
+
+/* =====================
+   BESTYRELSEN TITEL
+   ===================== */
+.section-title--board {
+  font-family: "Archivo", sans-serif;
+  font-weight: 900;
+  font-size: 42px;
+  color: #7b1212;
+  margin: 0;
+}
+
+.banner {
+  width: 130%;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--banner-gradient, linear-gradient(180deg, #0b3379 3.85%, rgba(136, 182, 255, 0.66) 19.71%, #f4f2e9 47.11%, rgba(255, 144, 144, 0.66) 70.19%, rgba(205, 78, 78, 0.83) 85.1%, #9b0c0c 96.63%));
+  margin-left: -10em;
+}
+
+.location-media {
+  display: grid;
+  gap: 40px;
+}
+
+@media (max-width: 900px) {
+  .grid_2,
+  .grid_3,
+  .grid_4 {
+    grid-template-columns: 1fr;
+  }
+
+  h2 {
+    font-size: 34px;
+  }
+
+  .section-title--board {
+    font-size: 34px;
+  }
+
+  .footer__inner {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .footer__logo img {
+    margin: 0 auto;
+  }
+
+  .footer__nav ul {
+    justify-items: center;
+  }
+}
